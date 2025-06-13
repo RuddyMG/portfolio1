@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Ruddy Muganza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="FVEA0183.JPG" alt="Ruddy Muganza" class="profile-img">
+            <h1>Ruddy Muganza</h1>
+            <p class="subtitle">Étudiant passionné de développement web</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>
+                Je suis Ruddy Muganza, étudiant en informatique passionné par la création de solutions web innovantes.<br>
+                J’aime apprendre de nouvelles technologies et relever des défis techniques.<br>
+                <strong>Contact :</strong> +243 893 652 634<br>
+                <strong>Email :</strong> ruddymuganza@gmail.com
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Gestionnaire de Tâches</h3>
+                    <p>Application web pour organiser, suivre et marquer l’avancement de vos tâches quotidiennes.</p>
+                    <a href="#">Voir le projet</a>
+                </div>
+                <div class="project-card">
+                    <h3>Réservation de Salles</h3>
+                    <p>Plateforme permettant aux étudiants de réserver des salles de travail à l’université.</p>
+                    <a href="#">Voir le projet</a>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Générateur</h3>
+                    <p>Outil en ligne pour générer facilement un portfolio professionnel en quelques clics.</p>
+                    <a href="#">Voir le projet</a>
+                </div>
+                <div class="project-card">
+                    <h3>Application météo fictive</h3>
+                    <p>Consultez la météo de n’importe quelle ville avec une interface moderne et responsive.</p>
+                    <a href="#">Voir le projet</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" value="ruddymuganza@gmail.com" readonly>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ruddy Muganza. Portfolio GitHub.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
